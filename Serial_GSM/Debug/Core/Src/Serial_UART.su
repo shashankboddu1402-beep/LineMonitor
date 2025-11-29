@@ -1,0 +1,9 @@
+../Core/Src/Serial_UART.c:20:17:Serial_GetDmaWriteIndex	16	static
+../Core/Src/Serial_UART.c:34:6:Serial_Init	16	static
+../Core/Src/Serial_UART.c:46:10:Serial_Available	16	static
+../Core/Src/Serial_UART.c:72:9:Serial_ReadByte	16	static
+../Core/Src/Serial_UART.c:85:9:Serial_BufferIsFull	4	static
+../Core/Src/Serial_UART.c:90:6:Serial_ClearOverflowFlag	4	static
+../Core/Src/Serial_UART.c:95:19:Serial_Write	16	static
+../Core/Src/Serial_UART.c:103:19:Serial_Print	16	static
+../Core/Src/Serial_UART.c:111:19:Serial_Println	24	static

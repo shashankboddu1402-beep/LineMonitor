@@ -1,0 +1,9 @@
+../Core/Src/main.c:102:1:__io_putchar	16	static
+../Core/Src/main.c:177:6:SystemClock_Config	112	static,ignoring_inline_asm
+../Core/Src/main.c:314:6:deinitEverything	8	static
+../Core/Src/main.c:374:19:OTA_Flash_Write_Data	64	static
+../Core/Src/main.c:511:20:OTA_Write_cfg_to_flash	56	static
+../Core/Src/main.c:576:6:load_new_app	48	static
+../Core/Src/main.c:121:5:main	16	static,ignoring_inline_asm
+../Core/Src/main.c:676:6:HAL_TIM_PeriodElapsedCallback	0	static
+../Core/Src/main.c:694:6:Error_Handler	0	static,ignoring_inline_asm

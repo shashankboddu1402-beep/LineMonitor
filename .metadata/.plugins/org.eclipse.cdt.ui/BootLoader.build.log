@@ -1,0 +1,24 @@
+21:41:53 **** Incremental Build of configuration Release for project BootLoader ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BootLoader.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\projects\DevelopmentLevelCode\LineMonitorUART\BootLoader\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BootLoader.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: BootLoader.elf has a LOAD segment with RWX permissions
+Finished building target: BootLoader.elf
+ 
+arm-none-eabi-size  BootLoader.elf 
+arm-none-eabi-objdump -h -S BootLoader.elf  > "BootLoader.list"
+arm-none-eabi-objcopy  -O ihex BootLoader.elf  "BootLoader.hex"
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   2192	  17944	   4618	BootLoader.elf
+arm-none-eabi-objcopy  -O binary BootLoader.elf  "BootLoader.bin"
+Finished building: default.size.stdout
+ 
+Finished building: BootLoader.hex
+Finished building: BootLoader.bin
+ 
+Finished building: BootLoader.list
+ 
+ 
+
+21:41:54 Build Finished. 0 errors, 1 warnings. (took 1s.291ms)
+

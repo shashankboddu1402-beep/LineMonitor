@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="true"/>
+		<item value="false"/>
+		<item value="bool"/>
+		<item value="OTA_Fw_Received_Size"/>
+		<item value="OTA_"/>
+		<item value="OTA_Pra_FunStatus"/>
+		<item value="OTA_SLOT_MAX_SIZE"/>
+		<item value="OTA_Pra_GNRL_CFG_"/>
+		<item value="cfg_1"/>
+		<item value="cfg"/>
+		<item value="load_new_app"/>
+		<item value="&amp;huart3"/>
+		<item value="urc_handler"/>
+		<item value="HAL_TIM_IC_CaptureCallback"/>
+	</list>
+	<list key="replacehistory">
+		<item value="1"/>
+		<item value="0"/>
+		<item value="uint8_t"/>
+		<item value="at_huart"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value=""/>
+		</list>
+	</section>
+</section>

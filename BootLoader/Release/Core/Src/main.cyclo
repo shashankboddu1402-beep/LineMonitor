@@ -1,0 +1,9 @@
+../Core/Src/main.c:102:1:__io_putchar	1
+../Core/Src/main.c:177:6:SystemClock_Config	3
+../Core/Src/main.c:314:6:deinitEverything	1
+../Core/Src/main.c:374:19:OTA_Flash_Write_Data	10
+../Core/Src/main.c:511:20:OTA_Write_cfg_to_flash	7
+../Core/Src/main.c:576:6:load_new_app	9
+../Core/Src/main.c:121:5:main	6
+../Core/Src/main.c:676:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:694:6:Error_Handler	1

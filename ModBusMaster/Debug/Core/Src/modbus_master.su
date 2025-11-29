@@ -1,0 +1,7 @@
+../Core/Src/modbus_master.c:11:20:RS485_SetTX	8	static
+../Core/Src/modbus_master.c:12:20:RS485_SetRX	8	static
+../Core/Src/modbus_master.c:15:17:Modbus_CRC16	24	static
+../Core/Src/modbus_master.c:28:21:Modbus_SendReceive	48	static
+../Core/Src/modbus_master.c:73:14:Modbus_ReadHolding	320	static
+../Core/Src/modbus_master.c:99:14:Modbus_WriteSingle	56	static
+../Core/Src/modbus_master.c:114:14:Modbus_WriteMultiple	328	static

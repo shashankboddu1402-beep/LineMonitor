@@ -1,0 +1,41 @@
+/*
+ * modbus_master.h
+ *
+ *  Created on: Sep 17, 2025
+ *      Author: Shashank
+ */
+#ifndef MODBUS_MASTER_H
+#define MODBUS_MASTER_H
+
+#include "main.h"
+#include "usart.h"
+#include "gpio.h"
+#include <string.h>
+#include <stdio.h>
+
+// === Error Codes ===
+typedef enum {
+    MB_OK = 0,
+    MB_TIMEOUT = -1,
+    MB_INCOMPLETE = -2,
+    MB_CRC_ERR = -3,
+    MB_EXCEPTION = -4,
+    MB_UNKNOWN = -5
+} ModbusStatus;
+
+// === Config (edit as needed) ===
+#define RS485_DIR_PORT   GPIOA
+#define RS485_DIR_PIN    GPIO_PIN_8   // DE/RE pin
+#define MB_RETRY         3
+#define MB_TIMEOUT_MS    1000
+
+// === API ===
+ModbusStatus Modbus_ReadHolding(uint8_t slaveId, uint16_t startReg, uint16_t numRegs,
+                                uint16_t *regs, uint16_t maxRegs);
+
+ModbusStatus Modbus_WriteSingle(uint8_t slaveId, uint16_t regAddr, uint16_t value);
+
+ModbusStatus Modbus_WriteMultiple(uint8_t slaveId, uint16_t startReg,
+                                  const uint16_t *values, uint16_t numRegs);
+
+#endif

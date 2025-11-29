@@ -1,0 +1,13 @@
+../Core/Src/GSM.c:29:9:atSend	40	static
+../Core/Src/GSM.c:153:6:GSMInit	16	static
+../Core/Src/GSM.c:193:14:generateRandomID	4	static
+../Core/Src/GSM.c:207:9:GSMConnectMqtt	728	static
+../Core/Src/GSM.c:310:13:GSM_DeleteSmsByIndex	48	static
+../Core/Src/GSM.c:317:12:GSM_GetSmsUsedCount	24	static
+../Core/Src/GSM.c:332:12:parse_sender_from_cmgr_header	40	static
+../Core/Src/GSM.c:372:14:sms_body_ptr_in_uartstring	104	static
+../Core/Src/GSM.c:443:12:json_braces_balanced	32	static
+../Core/Src/GSM.c:468:6:GSM_ProcessStoredSmsFromMaster_Reassemble	112	static
+../Core/Src/GSM.c:544:12:json_get_string	96	static
+../Core/Src/GSM.c:580:12:json_get_int	96	static
+../Core/Src/GSM.c:609:6:handleReceivedData	464	static

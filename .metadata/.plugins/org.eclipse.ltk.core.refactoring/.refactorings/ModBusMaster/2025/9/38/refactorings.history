@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ModBusMaster/LineMonitorUART.ioc&apos; to &apos;ModBusMaster.ioc&apos;" description="Rename resource &apos;LineMonitorUART.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="LineMonitorUART.ioc" name="ModBusMaster.ioc" stamp="1758083818219" updateReferences="true"/>
+</session>

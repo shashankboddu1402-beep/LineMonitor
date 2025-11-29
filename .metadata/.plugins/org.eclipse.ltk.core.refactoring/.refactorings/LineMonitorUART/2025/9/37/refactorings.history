@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;LineMonitorUART/Core/Src/RS485.c&apos; to &apos;ModBusRS485.c&apos;" description="Rename resource &apos;RS485.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/RS485.c" name="ModBusRS485.c" stamp="1757353684356" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;LineMonitorUART/Core/Inc/RS485.h&apos; to &apos;ModBusRS485.h&apos;" description="Rename resource &apos;RS485.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/RS485.h" name="ModBusRS485.h" stamp="1757353697634" updateReferences="true"/>
+</session>

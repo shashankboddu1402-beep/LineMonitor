@@ -1,0 +1,4 @@
+../Core/Src/ReadAction.c:24:6:HAL_TIM_IC_CaptureCallback	7
+../Core/Src/ReadAction.c:62:6:Read_InputPins	4
+../Core/Src/ReadAction.c:97:17:ADC_init_Read	2
+../Core/Src/ReadAction.c:119:14:Get_ADCVref	5

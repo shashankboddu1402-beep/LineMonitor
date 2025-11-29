@@ -1,0 +1,10 @@
+10:57:33 **** Incremental Build of configuration Debug for project ModBusMaster ****
+make -j12 all 
+arm-none-eabi-size  ModBusMaster.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33100	     12	   3036	  36148	   8d34	ModBusMaster.elf
+Finished building: default.size.stdout
+ 
+
+10:57:33 Build Finished. 0 errors, 0 warnings. (took 842ms)
+

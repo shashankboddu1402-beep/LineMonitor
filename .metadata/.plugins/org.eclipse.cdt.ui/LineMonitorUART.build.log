@@ -1,0 +1,19 @@
+20:40:53 **** Incremental Build of configuration Debug for project LineMonitorUART ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/AT_CMD.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/AT_CMD.d" -MT"Core/Src/AT_CMD.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/AT_CMD.o"
+arm-none-eabi-gcc "../Core/Src/ReadAction.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ReadAction.d" -MT"Core/Src/ReadAction.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ReadAction.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LineMonitorUART.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\projects\DevelopmentLevelCode\LineMonitorUART\LineMonitorUART\STM32G431CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LineMonitorUART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LineMonitorUART.elf
+ 
+arm-none-eabi-size  LineMonitorUART.elf 
+arm-none-eabi-objdump -h -S LineMonitorUART.elf  > "LineMonitorUART.list"
+   text	   data	    bss	    dec	    hex	filename
+  31736	     12	   2860	  34608	   8730	LineMonitorUART.elf
+Finished building: default.size.stdout
+ 
+Finished building: LineMonitorUART.list
+ 
+
+20:40:54 Build Finished. 0 errors, 0 warnings. (took 1s.116ms)
+

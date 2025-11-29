@@ -1,0 +1,6 @@
+../Core/Src/OTA_Upload.c:249:26:OTA_Flash_Write_Data	10
+../Core/Src/OTA_Upload.c:49:6:Clear_UART_Buffer	2
+../Core/Src/OTA_Upload.c:385:13:OTA_Send_Resp	1
+../Core/Src/OTA_Upload.c:633:20:OTA_Write_cfg_to_flash	7
+../Core/Src/OTA_Upload.c:63:19:OTA_Download_And_Flash	34
+../Core/Src/OTA_Upload.c:698:6:load_new_app	9
